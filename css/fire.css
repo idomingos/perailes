@@ -1,0 +1,10 @@
+main#fire h2{
+	font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;  
+	font-size: 48px;  
+	font-weight: 700;  
+	line-height: 60px;  
+	display: table-cell;  
+	vertical-align: middle; 
+	padding: 48px 24px;  
+	text-shadow: 1px 1px 2px #666;
+}
