@@ -10,6 +10,7 @@ $(".nav-item").on("click",function(){
 	let $id = $(this).attr("title");
 	$("main").hide();
 	$("nav").css("background","linear-gradient(to bottom, "+color[$id]+", #fffffe)");
-	$("#"+$id).show();
+	//$("#"+$id).show();
+	$("#"+$id).fadeIn("slow");
 });
 
